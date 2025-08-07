@@ -244,6 +244,7 @@ nav ul li a.active {
   position: absolute;
   width: 100%;
   mix-blend-mode: lighten;
+  object-fit: cover;
 }
 
 .info-sec{
