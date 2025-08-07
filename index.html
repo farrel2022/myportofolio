@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <video autoplay loop muted plays-inline class="back-vid">
+    <source src="images/galaxy.mp4" type="video/mp4">
+  </video>
+  <section class="main-section">
+<nav>
+  <h1><span style="color: #4acfee;">Farrel Fe</span>no Fatin</h1>
+  
+  <div class="hamburger" onclick="toggleMenu()">
+    <i class='bx bx-menu'></i>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html" >About</a></li>
+    <li><a href="project.html" >Project</a></li>
+    <li><a href="skill.html">Skill</a></li>
+    <li><a href="certificate.html">Certificate</a></li>
+  </ul>
+</nav>
+
+    <div class="hero">
+      <div class="hero-info">
+        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">Welcome to my portofolio website</h2>
+        <br>
+        <p>Attention!! <span class="typewriter-text"></span></p>        
+        <br>
+        <div class="Buttons">
+          <a href="about.html" class="btn" data-aos="zoom-in-right" data-aos-duration="1000" data-aos-delay="1100">About me</a> 
+        </div>
+      </div>
+
+      <div class="hero-img" data-aos="zoom-in-left" data-aos-duration="2500">
+        <img src="images/man1.png" alt="person-img" >
+      </div>
+    </div>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

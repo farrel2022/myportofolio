@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <video autoplay loop muted plays-inline class="back-vid">
+    <source src="images/galaxy.mp4" type="video/mp4">
+  </video>
+  <section class="main-section">
+<nav>
+  <h1><span style="color: #4acfee;">Farrel Fe</span>no Fatin</h1>
+  
+  <div class="hamburger" onclick="toggleMenu()">
+    <i class='bx bx-menu'></i>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="project.html" class="active">Project</a></li>
+    <li><a href="skill.html">Skill</a></li>
+    <li><a href="certificate.html">Certificate</a></li>
+  </ul>
+</nav>
+
+     <main class="content">
+
+      <div class="certificate-container" id="certificateGrid">
+        <article class="cert-card" data-aos="fade-up">
+          <h3 class="cert-title">Website UPN (Final Project)</h3>
+          <button class="img-button" data-src="images/sertifikat_bangkit_1.png" aria-label="Open Bangkit certificate">
+            <img src="images/Portofolio_2.png" alt="Bangkit Academy Certificate" class="certificate-img" loading="lazy">
+          </button>
+          <br>
+          <p> <span style="color: #ffffff; text-align: justify; display: block;">Creating a final project for a website programming course</span></p>
+        </article>
+
+        <article class="cert-card" data-aos="fade-up" data-aos-delay="80">
+                    <h3 class="cert-title">Website for CV. Fafinko Insan Mandiri</h3>
+          <button class="img-button" data-src="images/sertifikat_vsga_1.png" aria-label="Open VSGA certificate">
+            <img src="images/Portofolio_3.png" alt="VSGA Certificate" class="certificate-img" loading="lazy">
+          </button>
+      <p> <span style="color: #ffffff; text-align: justify; display: block;">A Website created to display the company's information system</span></p>
+        </article>
+
+        <article class="cert-card" data-aos="fade-up" data-aos-delay="160">
+                    <h3 class="cert-title">Certificate Junior Website Developer</h3>
+
+          <button class="img-button" data-src="images/sertifikat_bnsp_1.png" aria-label="Open BNSP certificate">
+            <img src="images/Portofolio_1.png" alt="BNSP Certificate" class="certificate-img" loading="lazy">
+          </button>
+          <p> <span style="color: #ffffff; text-align: justify; display: block;">An Android-based application that recommends foods based on the ingredients you have available.</span></p>
+
+          <br>
+          <a href="https://drive.google.com/drive/folders/1kFk7NAEzeD6wW5wsMOez-v_Juh5vqle2?usp=sharing" 
+        target="_blank" rel="noopener noreferrer" class="btn" data-aos="zoom-in-right" >Other Portofolio</a> 
+        </article>
+      </div>
+    </main>
+  </section>
+
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script> AOS && AOS.init(); </script>
+</body>
+</html>
